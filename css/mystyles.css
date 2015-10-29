@@ -1,5 +1,4 @@
 body {
-  align: center;
   padding: 50px 0 0;
   z-index: 0;
 }
@@ -34,14 +33,14 @@ color: #fff;
 
 
 .row-header {
-  margin: 0px auto;
-  padding: 0px auto;
+  margin: 0 auto;
+  padding: 0;
 }
 
 .row-content {
-  margin: 0px auto;
+  margin: 0 auto;
   padding: 50px 0;
-  border-bottom 1px ridge;
+  border-bottom: 1px ridge;
   min-height: 400px;
 }
 
@@ -77,4 +76,11 @@ address {
   font-size: 80%;
   margin: 0;
   color: #0f0f0f;
+}
+
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
 }
