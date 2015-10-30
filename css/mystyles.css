@@ -62,14 +62,9 @@ color: #fff;
   color: floralwhite;
 }
 
-.reserve-button {
-  color: #fff;
-}
 
-a.reserve-button:hover {
-  color: firebrick;
-  text-decoration: none;
-  text-decoration: none;
+.reserveButton {
+  color: #fff;
 }
 
 address {
@@ -102,7 +97,19 @@ address {
     min-height: 300px;
 }
 
+.reserveHeader {
+  border-bottom: 0;
+}
 
+.close {
+  margin: 5px 5px 0 0;
+}
 
+.reserveTable {
+  margin-top: -5px;
+  margin-bottom: -30px;
+}
 
-
+.guests {
+  margin-top: 10px;
+}
