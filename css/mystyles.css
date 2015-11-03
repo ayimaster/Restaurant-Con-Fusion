@@ -113,3 +113,9 @@ address {
 .guests {
   margin-top: 10px;
 }
+
+#carouselButtons {
+    right:0px;
+    position: absolute;
+    bottom: 0px;
+}
